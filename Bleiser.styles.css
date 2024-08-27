@@ -157,17 +157,14 @@ main[b-mb00yuh113] {
     }
 
     .collapse[b-8s8b92ihgs] {
-        /* Never collapse the sidebar for wide screens */
         display: block;
     }
 
     .nav-scrollable[b-8s8b92ihgs] {
-        /* Allow sidebar to scroll for tall menus */
         height: calc(100vh - 3.5rem);
         overflow-y: auto;
     }
 }
-/* /Pages/Checkers.razor.rz.scp.css */
 
 .row[b-ogww51l4hi] {
     --bs-gutter-x: 0;
@@ -182,18 +179,15 @@ button[b-ogww51l4hi] {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Full viewport height */
-    width: 100vw; /* Full viewport width */
+    height: 100vh; 
+    width: 100vw; 
 }
 
-/* Responsive board that maintains a square shape */
 .checkers-board[b-ogww51l4hi] {
     display: grid;
-    grid-template-columns: repeat(8, 1fr); /* 8 columns */
-    grid-template-rows: repeat(8, 1fr); /* 8 rows */
-    width: 88.8vmin; /* Scale based on the smaller viewport dimension */
-    height: 88.8vmin; /* Keep the height equal to the width for a square shape */
-    aspect-ratio: 1 / 1; /* Keeps it square */
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    aspect-ratio: 1 / 1;
 }
 
 .square[b-ogww51l4hi] {
@@ -205,7 +199,7 @@ button[b-ogww51l4hi] {
 }
 
 .piece[b-ogww51l4hi] {
-    border: 6px solid white; /* Default piece border color */
+    border: 6px solid white;
     width: 80%;
     height: 80%;
     border-radius: 50%;
